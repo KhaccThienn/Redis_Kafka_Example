@@ -1,0 +1,6 @@
+@Remake_Kafka_Example_01_HostAddress = http://localhost:5295
+
+GET {{Remake_Kafka_Example_01_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
