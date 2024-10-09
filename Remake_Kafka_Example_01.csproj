@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="2.5.3" />
     <PackageReference Include="Manonero.EventBus.Kafka" Version="6.0.9" />
     <PackageReference Include="Manonero.MessageBus.Kafka" Version="6.0.0-beta.8" />
